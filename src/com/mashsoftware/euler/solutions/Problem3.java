@@ -1,6 +1,5 @@
 package com.mashsoftware.euler.solutions;
 
-import java.util.List;
 
 public class Problem3 {
 	public static void main (String [] args){
@@ -8,7 +7,7 @@ public class Problem3 {
 			System.out.println("Pass in target integer");
 		System.exit(0);
 		}
-		double target = Double.parseDouble(args[0]);
+		long target = Long.parseLong(args[0]);
 		
 		System.out.println(Utilities.getLargestPrimeFactor(target));
 		
